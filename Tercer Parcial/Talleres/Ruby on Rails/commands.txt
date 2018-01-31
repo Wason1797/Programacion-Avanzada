@@ -1,0 +1,44 @@
+rails new {nombre del proyecto} //se usa para generar un nuevo proyecto
+rails -v 
+app es donde se tiene las cosas esenciales de la aplicacion 
+se crea la vista por default
+mallers: se ponen las gemas y los gestores de codigo
+assets: van las imagenes videos, js y css de ser necesario.
+routes es el archivos principal de configuracion, es donde se ponen las rutas
+se puede trabajar hasta en 3 bases de datos diferentes, desarrollo, pruebas y configuracion
+se puede dar en diferentes bases de datos que ruby soporte
+se puede poner el directorio de gemas en el Gemfile, si es que no deseamos conectarnos con un servidor publico
+rvm es un manejador de versiones de ruby, es util si deseamos trabajar con diferentes 
+versiones de ruby para que cada uno tenga sus diferentes versiones
+
+gem install bundle //descargar gemas
+bundle install //installar bundle
+
+helpers son pedazos de codigo que nos ayudan por ejemplo a validaciones, se usan para no repetir el codigo
+
+para correr el proyecto: rails s //para levantar el servidor
+
+rails s -p 3001 para levantar cambiando el puerto
+
+agregar un controlador para llamar a las vistas
+rails generate controller wellcome index //controlador con metodo index
+
+rake routes //para ver las routas que tenemos a los controladores
+
+se peuede cambiar la pagina de inicio en el archivo de rutas
+
+Para hacer un CRUD, debemos establecer nombres de variables en ingles
+rails generate scaffold article name: string content:text // para crear un model
+una migracion es para cambiar la estructura de la base de datos, nos permiten agregar una estrutura nueva a la base de datos
+para tener consistencia de migracones
+
+timestamps son fechas de actualizacion o creacion de los modelos, se crean en la migracion 
+
+rake db:migrate es para crear la tabla en la base de datos, se crea con las migraciones en ruby
+
+rails db /me abre una consola de cualquier base de datos que este utilizando
+
+rake db:rollbak para desacer la migracion 
+
+clase.json y me renderiza en formato json para servicios rest
+

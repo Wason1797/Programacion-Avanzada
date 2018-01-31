@@ -1,0 +1,4 @@
+ec\edu\espe\personapi\DBConnection.class
+ec\edu\espe\personapi\Person.class
+ec\edu\espe\personapi\PersonResource.class
+ec\edu\espe\personapi\ApplicationConfig.class

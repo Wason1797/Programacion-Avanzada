@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="123eaa0c-485a-493a-831d-498f7a74d056" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ObjectModel.ObservableCollection`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8733/Design_Time_Addresses/DbTest/Service1/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="c7888a54-3174-45e3-acb2-a3d5ee870235" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/DbTest/Service1/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="7edbbb6f-044f-434f-a7f5-fa95b9b50fcc" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/DbTest/Service1/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="ebca7cc7-f986-4091-8b8e-b6f173cc3cf4" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/DbTest/Service1/mex" />
+    <MetadataFile FileName="DbTest.xsd" MetadataType="Schema" ID="f0616859-d407-4d20-b20d-21c99dac4623" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/DbTest/Service1/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

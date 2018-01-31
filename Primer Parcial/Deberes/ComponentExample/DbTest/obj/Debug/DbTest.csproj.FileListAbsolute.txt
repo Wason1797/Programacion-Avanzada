@@ -1,0 +1,9 @@
+D:\wason\Documents\Visual Studio 2017\Projects\ComponentExample\DbTest\bin\Debug\DbTest.dll.config
+D:\wason\Documents\Visual Studio 2017\Projects\ComponentExample\DbTest\bin\Debug\DbTest.dll
+D:\wason\Documents\Visual Studio 2017\Projects\ComponentExample\DbTest\bin\Debug\DbTest.pdb
+D:\wason\Documents\Visual Studio 2017\Projects\ComponentExample\DbTest\obj\Debug\DbTest.csproj.CoreCompileInputs.cache
+D:\wason\Documents\Visual Studio 2017\Projects\ComponentExample\DbTest\obj\Debug\DbTest.dll
+D:\wason\Documents\Visual Studio 2017\Projects\ComponentExample\DbTest\obj\Debug\DbTest.pdb
+D:\wason\Documents\Visual Studio 2017\Projects\ComponentExample\DbTest\bin\Debug\EntityFramework.dll
+D:\wason\Documents\Visual Studio 2017\Projects\ComponentExample\DbTest\bin\Debug\EntityFramework.xml
+D:\wason\Documents\Visual Studio 2017\Projects\ComponentExample\DbTest\obj\Debug\DbTest.csprojResolveAssemblyReference.cache
